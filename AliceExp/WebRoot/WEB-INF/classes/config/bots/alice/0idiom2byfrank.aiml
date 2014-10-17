@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<!-- Copyright (c) 2007 ALICE A.I. Foundation, Inc. -->
+<!-- Last modified Oct 9, 2014, by Frank -->
+	<category> 
+		<pattern>你好*</pattern>  
+		<template>一起聊聊电影好吗?</template> 
+	</category>
+	<category> 
+		<pattern>好*</pattern> 
+		<that>一起聊聊电影好吗*</that> 
+		<template>那你喜欢什么电影那?</template>
+	</category>
+	<category><pattern>我们都有一个家*</pattern><template>名字叫中国~.哈哈哈.</template></category>
+	<category><pattern>测试</pattern><template>通过</template></category>
+	<category><pattern>HOW ARE YOU *</pattern><template>I'm fine.</template></category>                             
+	<category>
+		<pattern>NO *</pattern>
+		<template>All right</template>
+	</category>                          
+	<category>
+		<pattern>WHAT ARE YOU DOING *</pattern> 
+		<that>All right *</that>
+		<template>What's wrong?</template>
+	</category>                                   
+</aiml>

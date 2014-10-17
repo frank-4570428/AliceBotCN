@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Copyright (c) 2007 ALICE A.I. Foundation, Inc. -->
+<!-- Last modified Oct 9, 2014, by Frank -->
+
+	<category><pattern>HOW ARE YOU *</pattern><template>I'm fine.</template></category>                             
+	<category>
+		<pattern>NO *</pattern>
+		<template>All right.</template>
+	</category>                          
+	<category>
+		<pattern>WHAT ARE YOU DOING *</pattern> 
+		<template>What's wrong?</template>
+	</category>                                   
+</aiml>
